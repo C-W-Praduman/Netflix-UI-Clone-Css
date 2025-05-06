@@ -10,7 +10,7 @@ html body {
   background-color: black;
 }
 .main {
-  width: 100vw;
+  width: 100%;
   background-image: url(bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ html body {
 .navbar {
   padding: 1.2vh 12vw;
   height: 65px;
-  width: 100vw;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ html body {
 }
 .hero {
   text-align: center;
-  width: 100vw;
+  width: 100%;
   height: calc(80vh - 65px);
   display: flex;
   align-items: center;
@@ -212,7 +212,7 @@ footer a {
 .footer-items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   max-width: 70vw;
   margin: 30px auto;
 }
